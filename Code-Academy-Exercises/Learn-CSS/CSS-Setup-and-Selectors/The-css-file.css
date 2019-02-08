@@ -1,0 +1,6 @@
+    p {
+      font-family: Arial;
+    }
+
+/* Mixing different code together should be avoided in most cases so adding css
+styling to an HTML document should be done in a separate file with a .css extension. */ 
