@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title{
+  color:teal;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+/* An ID attribute can be added to an HTML element to allow for a unique style from it's
+class. This allows CSS to select HTML elemtns based on their ID attribute. In the
+CSS file, prepend a selector with a # to reference ID attribute in HTML file. {
+
+} */

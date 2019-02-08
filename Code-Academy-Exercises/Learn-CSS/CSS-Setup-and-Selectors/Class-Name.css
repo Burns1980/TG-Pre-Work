@@ -1,0 +1,15 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title{
+  color:teal;
+}
+
+/* CSS can also select elements based on it's class attribute in that element.The CSS
+selector for a class attribute uses syntax as follows: prepend a . to any attribute.
+*/

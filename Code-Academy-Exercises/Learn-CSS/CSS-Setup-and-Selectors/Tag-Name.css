@@ -1,0 +1,10 @@
+p {
+ font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+/* One way CSS knows what elements to change is by referencing the HTML tag name.
+The tag referenfed is called the CSS selector. */

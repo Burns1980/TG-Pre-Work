@@ -1,0 +1,27 @@
+p {
+  font-family: Arial;
+}
+
+h1 {
+  color: maroon;
+}
+
+.title{
+  color:teal;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+}
+
+.publish-time {
+  color: gray;
+}
+
+/* CSS classes are meant to be used over many elements whereas ID's are meant to
+style only 1 element. Also, IDs override the styles of tags and classes. */
