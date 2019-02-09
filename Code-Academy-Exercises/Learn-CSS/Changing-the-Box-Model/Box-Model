@@ -1,0 +1,5 @@
+/* There is a box-sizing property that controls the type of box model the browser uses.
+The default value is content-box, which is the same model we've used so far. The 2nd value
+is border-box. border-box fixes the dimensional issues that the content-box runs into. This
+keeps the height and width of the box fixed.
+*/
