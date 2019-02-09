@@ -1,0 +1,3 @@
+/* Margin collapse occurs between vertical margins and not horizontal margins.
+horizontal margins are added together to get the distance between them but vertical
+margins take the largest value of adjacent elements. */
