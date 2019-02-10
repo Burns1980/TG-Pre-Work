@@ -6,9 +6,6 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: fixed;
-  width: 100%;
-  z-index: 10;
 }
 
 ul {
@@ -74,7 +71,6 @@ p {
 footer {
   background-color: #DBE9EE;
   text-align: center;
-  height: 100px;
 }
 
 .welcome {
@@ -83,8 +79,6 @@ footer {
   padding: 40px;
   text-align: center;
   width: 100%;
-  position: relative;
-  top: 200px;
 }
 
 .question {
@@ -103,6 +97,8 @@ footer {
   color: #FFF;
 }
 
-/* Another value for display property is block. These elements fill the entire width
-of the page by default. Their height is set as high as necessary to fit the content.
+/*The position of an element can be moved with a value of relative. Relative moves the
+position of the element relative to the static (default) position. The properties
+used to move the element around are: top, bottom, left and right. The units for
+the properties can be pixels, ems, or percentages.
 */

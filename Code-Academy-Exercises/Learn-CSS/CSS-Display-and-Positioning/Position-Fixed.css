@@ -8,7 +8,6 @@ header {
   border-bottom: 1px solid #466995;
   position: fixed;
   width: 100%;
-  z-index: 10;
 }
 
 ul {
@@ -74,7 +73,6 @@ p {
 footer {
   background-color: #DBE9EE;
   text-align: center;
-  height: 100px;
 }
 
 .welcome {
@@ -103,6 +101,7 @@ footer {
   color: #FFF;
 }
 
-/* Another value for display property is block. These elements fill the entire width
-of the page by default. Their height is set as high as necessary to fit the content.
+/* By setting an elements position to fixed, the element will stay at a specific
+location on the page regardless if scrolling down the page. It is useful for
+navigation bars.
 */

@@ -6,9 +6,8 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: fixed;
+  position: absolute;
   width: 100%;
-  z-index: 10;
 }
 
 ul {
@@ -74,7 +73,6 @@ p {
 footer {
   background-color: #DBE9EE;
   text-align: center;
-  height: 100px;
 }
 
 .welcome {
@@ -83,8 +81,6 @@ footer {
   padding: 40px;
   text-align: center;
   width: 100%;
-  position: relative;
-  top: 200px;
 }
 
 .question {
@@ -103,6 +99,6 @@ footer {
   color: #FFF;
 }
 
-/* Another value for display property is block. These elements fill the entire width
-of the page by default. Their height is set as high as necessary to fit the content.
+/* Another way to modify an elements position is setting it to absolute. This will cause
+the element to ignore all other elements and align itself relative to it's closest parent element.
 */
