@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+  grid-gap: 10px;
+  grid-template-areas: "header header"
+    "nav nav"
+    "left right"
+    "footer footer";
+  grid-template-columns: 200px 400px;
+  grid-template-rows: 150px 200px 600px 200px;
+}
+
+h1, h2 {
+  font-family: monospace;
+  text-align: center;
+}
+
+header {
+  background-color: dodgerblue;
+  grid-area: header;
+}
+
+nav {
+  background-color: beige;
+  grid-area: nav;
+}
+
+.left {
+  background-color: dodgerblue;
+  grid-area: left;
+}
+
+.right {
+  background-color: beige;
+  grid-area: right;
+}
+
+footer {
+  background-color: dodgerblue;
+  grid-area: footer;
+}
+
+/* The grid-tempolate-areas property allows you to lay out your grid using names
+of sections. This gives the rule for making a grid a more visual representation
+and also reduces the number of lines of code needed. The grid-area property is used
+inside the containing elements rule set and the labels that were used inside the
+grid-template-areas property correspond to these sections.  */
