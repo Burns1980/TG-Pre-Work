@@ -4,4 +4,4 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 for(let i = 0; i < vacationSpots.length; i++) {
   console.log('I would love to visit ' + vacationSpots[i]);
 }
-//for loops can iterate of data structures.
+//for loops can iterate over data structures.
