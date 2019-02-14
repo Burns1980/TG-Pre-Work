@@ -1,0 +1,7 @@
+{
+	"presets": ["env"]
+}
+
+Once the babel packages are installed, the version of the JavaScript source code needs to be
+specified. This is done in the .babelrc file, which is in the root project directory. Inside
+this file, the preset needs to be defined as env to instruct babel to transpile ES6.
